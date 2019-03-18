@@ -5,7 +5,7 @@ application:
   name: 'The Kernel's Chicken Shop'
   logo: KFC-logo.png
   favicon: kfc-favicon.ico
-  numberOfRandomFakeUsers: 3
+  numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
   showChallengeHints: true
   showVersionNumber: true
@@ -44,7 +44,7 @@ products:
     price: 12.75
     description: 'It’s Ok To Play Favourites. Sometimes.'
     image: favourites_box.jpg
-    reviews: # Options 'author': admin, jim, bender, ciso, support, morty, mc.safesearch
+    reviews: # Options 'author': admin, jimmy.k, bender, ciso, support, morty, mc.safesearch
       - { text: 'One of my favorites!', author: admin }
   -
     name: '3 Piece Box'
@@ -157,7 +157,7 @@ products:
     image: regular_chips.jpg
     reviews:
       - { text: 'These chips got it going on!', author: mc.safesearch }
-      - { text: 'These, chips, are, highly, satisfying.', author: jimmy kirk }
+      - { text: 'These, chips, are, highly, satisfying.', author: jimmy.k }
   -
     name: 'Honey Mustard Shaker Salad'
     description: 'Mustard… Ohh Honey, Honey.'
@@ -165,14 +165,14 @@ products:
     image: honey_mustard_salad.jpg
   -
     name: 'Large Potato & Gravy'
-    description: 'Have You Ever Tried Dipping With This Bad Boy? Packaging can be <a href="/#recycle">sent back to us</a> for recycling.'
+    description: 'Have You Ever Tried Dipping With This Bad Boy?'
     price: 5.95
     image: potato_gravy.jpg
     reviews:
-      - { text: 'Fresh out of a replicator.', author: jimmy kirk }
+      - { text: 'Fresh out of a replicator.', author: jimmy.k }
   -
     name: 'Large Coleslaw'
-    description: 'Cool, Crispy, Crunchy. Packaging can be <a href="/#recycle">sent back to us</a> for recycling.'
+    description: 'Cool, Crispy, Crunchy.'
     price: 5.95
     image: coleslaw.jpg
   -
