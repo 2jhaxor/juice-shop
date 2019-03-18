@@ -40,199 +40,152 @@ challenges:
   overwriteUrlForProductTamperingChallenge: 'https://owasp.slack.com'
 products:
   -
-    name: 'Apple Juice (1000ml)'
-    price: 1.99
-    description: 'The all-time classic.'
-    image: apple_juice.jpg
-    reviews: # Options 'author': admin, jim, bender, ciso, support, morty, mc.safesearch
+    name: 'Favourites Box'
+    price: 12.75
+    description: 'It’s Ok To Play Favourites. Sometimes.'
+    image: favourites_box.jpg
+    reviews: # Options 'author': admin, jimmy.k, bender, ciso, support, morty, mc.safesearch
       - { text: 'One of my favorites!', author: admin }
   -
-    name: 'Orange Juice (1000ml)'
-    description: 'Made from oranges hand-picked by Uncle Dittmeyer.'
-    price: 2.99
-    image: orange_juice.jpg
+    name: '3 Piece Box'
+    description: 'ALL. OF. THIS.'
+    price: 11.75
+    image: 3_piece_box.jpg
   -
-    name: 'Eggfruit Juice (500ml)'
-    description: 'Now with even more exotic flavour.'
-    price: 8.99
-    image: eggfruit_juice.jpg
+    name: 'Original Tenders Box'
+    description: 'Dip It Real Good.'
+    price: 11.45
+    image: original_tenders_box.jpg
     reviews:
       - { text: 'I bought it, would buy again. 5/7', author: admin }
   -
-    name: 'Raspberry Juice (1000ml)'
-    description: 'Made from blended Raspberry Pi, water and sugar.'
-    price: 4.99
-    image: raspberry_juice.jpg
+    name: 'Ultimate Box'
+    description: 'No Regrets.'
+    price: 10.95
+    image: ultimate_box.jpg
   -
-    name: 'Lemon Juice (500ml)'
-    description: 'Sour but full of vitamins.'
-    price: 2.99
-    image: lemon_juice.jpg
-  -
-    name: 'Banana Juice (1000ml)'
-    description: 'Monkeys love it the most.'
-    price: 1.99
-    image: banana_juice.jpg
+    name: 'Twister Box'
+    description: 'Wrap It Up, People.'
+    price: 12.45
+    image: original_twister_box.jpg
     reviews:
       - { text: 'Fry liked it too.', author: bender }
   -
-    name: 'OWASP Juice Shop T-Shirt'
-    description: 'Real fans wear it 24/7!'
-    price: 22.49
-    image: fan_shirt.jpg
+    name: 'Sweet Chilli Twister Box'
+    description: 'Sweet, Dude...'
+    price: 12.45
+    image: sweet_chili_twister_box.jpg
   -
-    name: 'OWASP Juice Shop CTF Girlie-Shirt'
-    description: 'For serious Capture-the-Flag heroines only!'
-    price: 22.49
-    image: fan_girlie.jpg
+    name: 'Honey Mustard Twister Box'
+    description: 'Honey, We Made A Twister.'
+    price: 12.45
+    image: honey_mustard_twister_box.jpg
   -
-    name: 'OWASP SSL Advanced Forensic Tool (O-Saft)'
-    description: 'O-Saft is an easy to use tool to show information about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.'
-    price: 0.01
-    image: orange_juice.jpg
-    urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
+    name: 'Ceasar Twister Box'
+    description: 'Like A Caesar Salad, But Less Salady.'
+    price: 12.45
+    image: ceasar_twister_box.jpg
   -
-    name: 'Christmas Super-Surprise-Box (2014 Edition)'
-    description: 'Contains a random selection of 10 bottles (each 500ml) of our tastiest juices and an extra fan shirt for an unbeatable price!'
-    price: 29.99
-    image: undefined.jpg
+    name: 'Zinger Stacker Combo'
+    description: 'Hit Your Hunger For Six With The KFC Zinger Stacker.'
+    price: 11.65
+    image: zinger_stacker_combo.jpg
+    urlForProductTamperingChallenge: 'https://the-colonels-chicken-shop.herokuapp.com'
+  -
+    name: 'Fillet Burger Combo'
+    description: 'The OG.'
+    price: 9.15
+    image: fillet_burger_combo.jpg
     useForChristmasSpecialChallenge: true
   -
-    name: 'Rippertuer Special Juice'
-    description: 'Contains a magical collection of the rarest fruits gathered from all around the world, like Cherymoya Annona cherimola, Jabuticaba Myrciaria cauliflora, Bael Aegle marmelos... and others, at an unbelievable price! <br/><span style="color:red;">This item has been made unavailable because of lack of safety standards.</span>'
-    price: 16.99
+    name: 'Kentucky Burger Combo'
+    description: 'No Seriously You Have To Try This. <br/><span style="color:red;">This item has been made unavailable due to breaches in food safety standards.</span>'
+    price: 10.95
     image: undefined.jpg
     keywordsForPastebinDataLeakChallenge:
-      - hueteroneel
-      - eurogium edule
+      - Monosodium Glutamate
+      - Hydrogen Peroxide
   -
-    name: 'OWASP Juice Shop Sticker (2015/2016 design)'
-    description: 'Die-cut sticker with the official 2015/2016 logo. By now this is a rare collectors item. <em>Out of stock!</em>'
+    name: 'Szechuan Sauce'
+    description: 'A Flavour Explosion. By now this is a rare collectors item. <em>Out of stock!</em>'
     price: 999.99
-    image: sticker.png
-    deletedDate: '2017-04-28'
+    image: szechuan_sauce.png
+    deletedDate: '2017-10-07'
   -
-    name: 'OWASP Juice Shop Iron-Ons (16pcs)'
-    description: 'Upgrade your clothes with washer safe <a href="https://www.stickeryou.com/products/owasp-juice-shop/794" target="_blank">iron-ons</a> of the OWASP Juice Shop or CTF Extension logo!'
-    price: 14.99
-    image: iron-on.jpg
+    name: 'Bacon & Cheese Combo'
+    description: 'Chicken, Cheese, Bacon Combo! Enough Said.'
+    price: 9.95
+    image: bacon_cheese_combo.jpg
   -
-    name: 'OWASP Juice Shop Magnets (16pcs)'
-    description: 'Your fridge will be even cooler with these OWASP Juice Shop or CTF Extension logo <a href="https://www.stickeryou.com/products/owasp-juice-shop/794" target="_blank">magnets</a>!'
-    price: 15.99
-    image: magnets.jpg
+    name: 'Popcorn Chicken Bucket (10pcs)'
+    description: 'Tender. Tantalising. Yours For The Taking!'
+    price: 10.00
+    image: popcorn_chicken.jpg
   -
-    name: 'OWASP Juice Shop Sticker Page'
-    description: 'Massive decoration opportunities with these OWASP Juice Shop or CTF Extension <a href="https://www.stickeryou.com/products/owasp-juice-shop/794" target="_blank">sticker pages</a>! Each page has 16 stickers on it.'
-    price: 9.99
-    image: sticker_page.jpg
-  -
-    name: 'OWASP Juice Shop Sticker Single'
-    description: 'Super high-quality vinyl <a href="https://www.stickeryou.com/products/owasp-juice-shop/794" target="_blank">sticker single</a> with the OWASP Juice Shop or CTF Extension logo! The ultimate laptop decal!'
-    price: 4.99
-    image: sticker_single.jpg
-  -
-    name: 'OWASP Juice Shop Temporay Tattoos (16pcs)'
-    description: 'Get one of these <a href="https://www.stickeryou.com/products/owasp-juice-shop/794" target="_blank">temporary tattoos</a> to proudly wear the OWASP Juice Shop or CTF Extension logo on your skin! If you tweet a photo of yourself with the tattoo, you get a couple of our stickers for free! Please mention <a href="https://twitter.com/owasp_juiceshop" target="_blank"><code>@owasp_juiceshop</code></a> in your tweet!'
-    price: 14.99
-    image: tattoo.jpg
-    reviews:
-      - { text: 'I straight-up gots nuff props fo''these tattoos!', author: mc.safesearch }
-  -
-    name: 'OWASP Juice Shop Mug'
-    description: 'Black mug with regular logo on one side and CTF logo on the other! Your colleagues will envy you!'
-    price: 21.99
-    image: fan_mug.jpg
-  -
-    name: 'OWASP Juice Shop Hoodie'
-    description: 'Mr. Robot-style apparel. But in black. And with logo.'
-    price: 49.99
-    image: fan_hoodie.jpg
-  -
-    name: 'OWASP Juice Shop-CTF Velcro Patch'
-    description: '4x3.5" embroidered patch with velcro backside. The ultimate decal for every tactical bag or backpack!'
-    price: 2.92
-    image: velcro-patch.jpg
-    reviews:
-      - { text: 'This thang would look phat on Bobby''s jacked fur coat!', author: mc.safesearch }
-      - { text: 'Looks so much better on my uniform than the boring Starfleet symbol.', author: jim }
-  -
-    name: 'Woodruff Syrup "Forest Master X-Treme"'
-    description: 'Harvested and manufactured in the Black Forest, Germany. Can cause hyperactive behavior in children. Can cause permanent green tongue when consumed undiluted.'
-    price: 6.99
-    image: woodruff_syrup.jpg
-  -
-    name: 'Green Smoothie'
-    description: 'Looks poisonous but is actually very good for your health! Made from green cabbage, spinach, kiwi and grass.'
-    price: 1.99
-    image: green_smoothie.jpg
-    reviews:
-      - { text: 'Fresh out of a replicator.', author: jim }
-  -
-    name: 'Quince Juice (1000ml)'
-    description: 'Juice of the <em>Cydonia oblonga</em> fruit. Not exactly sweet but rich in Vitamin C.'
-    price: 4.99
-    image: quince.jpg
-  -
-    name: 'Apple Pomace'
-    description: 'Finest pressings of apples. Allergy disclaimer: Might contain traces of worms. Can be <a href="/#recycle">sent back to us</a> for recycling.'
-    price: 0.89
-    image: apple_pressings.jpg
-  -
-    name: 'Fruit Press'
-    description: 'Fruits go in. Juice comes out. Pomace you can send back to us for recycling purposes.'
-    price: 89.99
-    image: fruit_press.jpg
-  -
-    name: 'OWASP Juice Shop Logo (3D-printed)'
-    description: 'This rare item was designed and handcrafted in Sweden. This is why it is so incredibly expensive despite its complete lack of purpose.'
-    price: 99.99
-    image: 3d_keychain.jpg # Exif metadata contains "OpenSCAD" as subtle hint...
+    name: '1 Piece of Chicken'
+    description: 'Our Irresistible, Unmistakable Original Recipe Chicken.'
+    price: 3.00
+    image: 1_piece.jpg
+    # Exif metadata contains "OpenSCAD" as subtle hint...
     fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
   -
-    name: 'Juice Shop Artwork'
-    description: 'Unique masterpiece painted with different kinds of juice on 90g/m² lined paper.'
-    price: 278.74
-    image: artwork.jpg
+    name: '5 Pieces of Chicken'
+    description: '5 Piece Original Recipe'
+    price: 13.40
+    image: 5_piece.jpg
   -
-    name: 'Global OWASP WASPY Award 2017 Nomnation'
-    description: 'Your chance to nominate up to three quiet pillars of the OWASP community ends 2017-06-30! <a href="https://www.owasp.org/index.php/WASPY_Awards_2017">Nominate now!</a>'
-    price: 0.03
-    image: waspy.png
-    deletedDate: '2017-07-01'
-  -
-    name: 'Strawberry Juice (500ml)'
-    description: 'Sweet & tasty!'
-    price: 3.99
-    image: strawberry_juice.jpeg
-  -
-    name: 'Carrot Juice (1000ml)'
-    description: 'As the old German saying goes: "Carrots are good for the eyes. Or has anyone ever seen a rabbit with glasses?"'
-    price: 2.99
-    image: carrot_juice.jpeg
-  -
-    name: 'OWASP Juice Shop Sweden Tour 2017 Sticker Sheet (Special Edition)'
-    description: '10 sheets of Sweden-themed stickers with 15 stickers on each.'
-    price: 19.1
-    image: stickersheet_se.png
-    deletedDate: '2017-09-20'
-  -
-    name: 'Pwning OWASP Juice Shop'
-    description: '<em>The official Companion Guide</em> by Björn Kimminich available <a href="https://leanpub.com/juice-shop">for free on LeanPub</a> and <a href="https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/">readable online on GitBook</a>!'
-    price: 5.99
-    image: cover_small.jpg
+    name: '3 Wicked Wings'
+    description: 'Spice Up Your Life.'
+    price: 3.95
+    image: 3_wicked.jpg
     reviews:
-      - { text: 'Even more interesting than watching Interdimensional Cable!', author: morty }
+      - { text: 'I straight-up gots nuff props fo''these wings!', author: mc.safesearch }
   -
-    name: 'Melon Bike (Comeback-Product 2018 Edition)'
-    description: 'The wheels of this bicycle are made from real water melons. You might not want to ride it up/down the curb too hard.'
-    price: 2999
-    image: melon_bike.jpeg
+    name: '6 Wicked Wings'
+    description: 'What’s Better Than 3 Wicked Wings? 6 Of Course.'
+    price: 6.95
+    image: 6_wicked.jpg
   -
-    name: 'OWASP Juice Shop Coaster (10pcs)'
-    description: 'Our 95mm circle coasters are printed in full color and made from thick, premium coaster board.'
-    price: 19.99
-    image: coaster.png
+    name: '10 Wicked Wings'
+    description: 'A Perfect Addition To Any Meal.'
+    price: 10.95
+    image: 10_wicked.jpg
+  -
+    name: 'Regular Seasoned Chips'
+    description: 'The Chips You Love.'
+    price: 3.25
+    image: regular_chips.jpg
+    reviews:
+      - { text: 'These chips got it going on!', author: mc.safesearch }
+      - { text: 'These, chips, are, highly, satisfying.', author: jimmy.k }
+  -
+    name: 'Honey Mustard Shaker Salad'
+    description: 'Mustard… Ohh Honey, Honey.'
+    price: 4.95
+    image: honey_mustard_salad.jpg
+  -
+    name: 'Large Potato & Gravy'
+    description: 'Have You Ever Tried Dipping With This Bad Boy?'
+    price: 5.95
+    image: potato_gravy.jpg
+    reviews:
+      - { text: 'Fresh out of a replicator.', author: jimmy.k }
+  -
+    name: 'Large Coleslaw'
+    description: 'Cool, Crispy, Crunchy.'
+    price: 5.95
+    image: coleslaw.jpg
+  -
+    name: 'Chocolate Mousse'
+    description: 'Finish With A Sweet Treat. Packaging can be <a href="/#recycle">sent back to us</a> for recycling.'
+    price: 2.50
+    image: chocolate_mousse.jpg
+  -
+    name: 'Craft Dipping Sauces'
+    description: 'What’s Your Flavour? These rare sauces were designed and handcrafted in Sweden.'
+    price: 0.50
+    image: dipping_sauces.jpg 
+
 ctf:
   showFlagsInNotifications: false
   showCountryDetailsInNotifications: none # Options: none  name  flag  both
