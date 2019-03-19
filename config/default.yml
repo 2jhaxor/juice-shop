@@ -185,6 +185,8 @@ products:
     description: 'What’s Your Flavour? These rare sauces were designed and handcrafted in Sweden.'
     price: 0.50
     image: dipping_sauces.jpg 
+    reviews: 
+      - { text: 'Good God! I spilt some, on my Starfleet issued, uniform, and nothing will, get it out.', author: jimmy.k }
 
 ctf:
   showFlagsInNotifications: false
