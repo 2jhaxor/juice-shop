@@ -19,8 +19,8 @@ application:
   planetOverlayMap: orangemap2k.jpg
   planetName: Kentucky
   recyclePage:
-    topProductImage: recycle_top.png
-    bottomProductImage: recycle_bottom.png
+    topProductImage: recycle_top.jpg
+    bottomProductImage: recycle_bottom.jpg
   altcoinName: Zingercoin
   cookieConsent:
     backgroundColor: '#E4002B'
