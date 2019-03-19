@@ -24,7 +24,7 @@ application:
   altcoinName: Zingercoin
   cookieConsent:
     backgroundColor: '#E4002B'
-    textColor: '#ffffff'
+    textColor: '#E4002B'
     buttonColor: '#ffffff'
     buttonTextColor: '##E4002B'
     message: 'This website uses cookies to ensure you get a finger licking good experience.'
