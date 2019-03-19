@@ -1,7 +1,7 @@
 server:
   port: 3000
 application:
-  domain: juice-sh.op
+  domain: chicken-sh.op
   name: 'The Kernels Chicken Shop'
   logo: KFC-logo.png
   favicon: kfc-favicon.ico
