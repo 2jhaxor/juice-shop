@@ -1,21 +1,21 @@
 server:
   port: 3000
 application:
-  domain: chicken-sh.op
-  name: 'The Kernel's Chicken Shop'
+  domain: juice-sh.op
+  name: 'The Kernels Chicken Shop'
   logo: KFC-logo.png
   favicon: kfc-favicon.ico
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
   showChallengeHints: true
   showVersionNumber: true
-  theme: indigo-pink # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
+  theme: deeporange-indigo # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
   gitHubRibbon: false
   twitterUrl: 'https://twitter.com/KFCAustralia'
   facebookUrl: 'https://www.facebook.com/KFCAustralia'
   slackUrl: 'https://sectalks.slack.com/'
   redditUrl: 'https://www.reddit.com/r/kfc/'
-  pressKitUrl: 'https://google.com'
+  pressKitUrl: 'https://github.com/OWASP/owasp-swag/tree/master/projects/juice-shop'
   planetOverlayMap: orangemap2k.jpg
   planetName: Kentucky
   recyclePage:
