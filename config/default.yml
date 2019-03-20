@@ -90,7 +90,7 @@ products:
     description: 'Hit Your Hunger For Six With The KFC Zinger Stacker.'
     price: 11.65
     image: zinger_stacker_combo.jpg
-    urlForProductTamperingChallenge: 'https://the-colonels-chicken-shop.herokuapp.com'
+    urlForProductTamperingChallenge: 'https://the-kernels-chicken-shop.herokuapp.com'
   -
     name: 'Fillet Burger Combo'
     description: 'The OG.'
